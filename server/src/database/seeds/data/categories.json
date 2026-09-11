@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Housing",
+    "is_default": true,
+    "user_id": null
+  },
+  {
+    "id": 2,
+    "name": "Food & Dining",
+    "is_default": true,
+    "user_id": null
+  },
+  {
+    "id": 3,
+    "name": "Transport",
+    "is_default": true,
+    "user_id": null
+  },
+  {
+    "id": 4,
+    "name": "Entertainment",
+    "is_default": true,
+    "user_id": null
+  },
+  {
+    "id": 5,
+    "name": "Subscriptions",
+    "is_default": true,
+    "user_id": null
+  },
+  {
+    "id": 6,
+    "name": "Personal Care",
+    "is_default": true,
+    "user_id": null
+  },
+  {
+    "id": 7,
+    "name": "Income",
+    "is_default": true,
+    "user_id": null
+  },
+  {
+    "id": 8,
+    "name": "Other",
+    "is_default": true,
+    "user_id": null
+  }
+]

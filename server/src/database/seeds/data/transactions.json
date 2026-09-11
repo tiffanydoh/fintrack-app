@@ -1,0 +1,29 @@
+[
+  {
+    "id": 100000,
+    "account_id": 100000,
+    "category_id": 5,
+    "amount": 15.99,
+    "type": "expense",
+    "description": "Netflix",
+    "transaction_date": "2026-04-17"
+  },
+  {
+    "id": 100001,
+    "account_id": 100000,
+    "category_id": 1,
+    "amount": 2200.0,
+    "type": "expense",
+    "description": "Rent",
+    "transaction_date": "2026-04-01"
+  },
+  {
+    "id": 100002,
+    "account_id": 100000,
+    "category_id": 7,
+    "amount": 1517.37,
+    "type": "income",
+    "description": "Paycheck",
+    "transaction_date": "2026-03-31"
+  }
+]
