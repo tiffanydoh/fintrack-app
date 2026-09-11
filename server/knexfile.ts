@@ -1,9 +1,7 @@
-import type { Knex } from "knex";
+const { knex } = require("knex");
+require("dotenv").config();
 
-import dotenv from "dotenv";
-dotenv.config();
-
-const config: { [key: string]: Knex.Config } = {
+const config = {
   development: {
     client: "postgresql",
     connection: process.env.DATABASE_URL,
@@ -11,7 +9,6 @@ const config: { [key: string]: Knex.Config } = {
       directory: "./src/database/migrations",
       extension: "ts",
     },
-
     seeds: {
       directory: "./src/database/seeds",
       extension: "ts",
@@ -19,4 +16,4 @@ const config: { [key: string]: Knex.Config } = {
   },
 };
 
-export default config;
+module.exports = config;

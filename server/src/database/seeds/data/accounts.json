@@ -1,0 +1,26 @@
+[
+  {
+    "id": 100000,
+    "user_id": 100000,
+    "name": "Chase Checkings",
+    "type": "checking",
+    "balance": 1000.25,
+    "currency": "USD"
+  },
+  {
+    "id": 100001,
+    "user_id": 100000,
+    "name": "Chase Savings",
+    "type": "savings",
+    "balance": 5000,
+    "currency": "USD"
+  },
+  {
+    "id": 100002,
+    "user_id": 100000,
+    "name": "Chase Credit",
+    "type": "credit",
+    "balance": -300,
+    "currency": "USD"
+  }
+]
